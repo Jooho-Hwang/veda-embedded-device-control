@@ -167,7 +167,11 @@ Expected behavior:
 ## Lessons Learned
 
 Dynamic loading of device modules increases flexibility but requires careful path management
+
 Thread-based device control improves responsiveness but needs proper mutex handling
+
 WiringPi simplifies GPIO handling but is deprecated; future versions should consider libgpiod
+
 Clearly documenting the command protocol is essential for client–server integration
+
 Separation of device logic into independent .so modules aids maintainability and testing
